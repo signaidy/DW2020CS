@@ -1,0 +1,112 @@
+header{
+    color: blue;
+    border-radius: 8px;
+    background-color: rgba(255, 0, 0, 0.774);
+    height: 50px;
+    text-align: center;
+}
+#menu{
+    text-align: center;
+    font-size: 25px;
+    padding: 1px;
+}
+nav{
+    border-radius: 8px;
+    display: block;
+    background-color: rgba(128, 0, 128, 0.521);
+    padding: 2px;
+    border: 1px;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+#card{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30%;
+}
+#expD{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30%;
+}
+#expM{
+    margin-top: 0px;
+    width: 25px;
+    margin-left: 30%;
+}
+#expY{
+    margin-top: 0px;
+    width: 25px;
+}
+#cvc{
+    margin-left: 30%;
+}
+.textbox{
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 30%;
+}
+button{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+a{
+    color: black;
+}
+.section{
+    color: white;
+    margin-left: 5%;
+    float: left;
+}
+img{
+    width: 200px;
+    padding: 2px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+aside{
+    align-content: center;
+    background-color: gray;
+    border-radius: 8px;
+    width: 100%;
+}
+#info{
+    border-radius: 10px;
+    background-color: rgb(116, 107, 107);
+    margin-top: 80px;
+    position: fixed;
+    margin-left: 5%;
+    width: 90%;
+}
+h4{
+    margin: 2px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(116, 107, 107);
+    position: fixed;
+    border-radius: 5px;
+    height: 20px;
+    bottom: 0px;
+    width: 100%;
+}
+html{
+    background-color: rgb(65, 3, 65);
+}
+@media only screen and (min-width: 600px){
+    nav{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1600px){
+    aside{
+        width: 280px;
+        float: left;
+    }
+}

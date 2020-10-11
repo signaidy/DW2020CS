@@ -5,18 +5,6 @@ header{
     height: 50px;
     text-align: center;
 }
-#menu{
-    text-align: center;
-    font-size: 25px;
-    padding: 1px;
-}
-nav{
-    border-radius: 8px;
-    display: block;
-    background-color: rgba(128, 0, 128, 0.521);
-    padding: 2px;
-    border: 1px;
-}
 h2{
     margin-top: 10px;
     text-align: center;
@@ -26,19 +14,13 @@ h2{
     margin-bottom: 0px;
     margin-left: 30%;
 }
-#expD{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 30%;
-}
 #expM{
     margin-top: 0px;
-    width: 25px;
-    margin-left: 30%;
+    width: 30px;
 }
 #expY{
-    margin-top: 0px;
-    width: 25px;
+    margin: 0px;
+    width: 30px;
 }
 #cvc{
     margin-left: 30%;
@@ -48,18 +30,22 @@ h2{
     width: 150px;
     margin-left: 30%;
 }
-button{
-    width: 80px;
-    margin-top: 10px;
-    margin-left: 30%;
-}
 a{
     color: black;
 }
+#info{
+    border-radius: 8px;
+    margin-top: 4%;
+    background-color: gray;
+}
 .section{
-    color: white;
+    color: gray;
     margin-left: 5%;
     float: left;
+}
+#logo{
+    width: 60px;
+    margin: auto;
 }
 img{
     width: 200px;
@@ -76,14 +62,6 @@ aside{
     border-radius: 8px;
     width: 100%;
 }
-#info{
-    border-radius: 10px;
-    background-color: rgb(116, 107, 107);
-    margin-top: 80px;
-    position: fixed;
-    margin-left: 5%;
-    width: 90%;
-}
 h4{
     margin: 2px;
     text-align: center;
@@ -96,7 +74,10 @@ footer{
     bottom: 0px;
     width: 100%;
 }
-html{
+.container{
+    color: white;
+}
+body{
     background-color: rgb(65, 3, 65);
 }
 @media only screen and (min-width: 600px){

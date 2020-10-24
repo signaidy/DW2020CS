@@ -39,7 +39,7 @@ a{
     background-color: gray;
 }
 .section{
-    color: gray;
+    color: $priCol;
     margin-left: 5%;
     float: left;
 }
@@ -48,13 +48,14 @@ a{
     margin: auto;
 }
 img{
-    width: 200px;
     padding: 2px;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 20px;
-    color: white;
+}
+.logo1{
+    width: 200px;
 }
 aside{
     align-content: center;

@@ -56,60 +56,6 @@
                 </form>
             </div>
         </nav>
-        <div id="carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel" data-slide-to="1"></li>
-              <li data-target="#carousel" data-slide-to="2"></li>
-              <li data-target="#carousel" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="menu.html#pork">
-                    <img src="https://via.placeholder.com/1850x600" class="d-block w-100" alt="Pork">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Pork</h5>
-                  <p>Try our newest smoked pork recipies.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="menu.html#chicken">
-                    <img src="https://via.placeholder.com/1850x600" class="d-block w-100" alt="Chicken">
-                </a>                
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Chicken</h5>
-                    <p>Try our newest smoked Chicken recipies.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="menu.html#lamb">
-                    <img src="https://via.placeholder.com/1850x600" class="d-block w-100" alt="Lamb">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Lamb</h5>
-                    <p>Try our newest smoked Lamb recipies.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="menu.html#beef">
-                    <img src="https://via.placeholder.com/1850x600" class="d-block w-100" alt="Beef">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Beef</h5>
-                    <p>Try our newest smoked Beef recipies.</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
         <aside>
             <h2>Recomended</h2>
              <img src="https://via.placeholder.com/200" alt="Pulled Pork">
@@ -117,28 +63,28 @@
              <img src="https://via.placeholder.com/200" alt="Roasted Chicken">
              <img src="https://via.placeholder.com/200" alt="Pulled Pork Burger">
         </aside>
-        <div class="container" id="info">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-4">
-                    <h2>Carlos Solares</h2>
+                <div class="col-sm6">
+                    <h3>Create dish</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-between">
                 <div class="col-sm-4">
-                    <h5>Email: solares171423@unis.edu.gt</h5>
+                    <p>Menu Name: </p>
+                    <input type="text" class="form-control" placeholder="Delisious Name">
+                    <p>Description: </p>
+                    <Textarea class="form-control" placeholder="Describe the type of foods."></Textarea>
+                    <p>Dishes:</p>
+                    <textarea name="ingridients" class="form-control" placeholder="What dishes does it have?"></textarea>
+                    <p>Foto:</p>
+                    <input type="file" class="form-control-file">
+                    <form action="menu.html">
+                        <button id="btn" class="form-control">Confirmar</button>
+                    </form>
                 </div>
-                <div class="col-sm-8">
-                    <h5>Dirreccion: por ahi de carretera al salvador xD</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h5>Fecha de nacimiento: 25/11/1775</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h5><a href="passchng.html">Cambiar contraseña</a></h5>
+                <div class="col-sm-6 align-self-">
+                    <img src="imgs/logo.png" class="logo1" alt="Logo">
                 </div>
             </div>
         </div> 

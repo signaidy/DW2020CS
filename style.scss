@@ -1,9 +1,26 @@
+$priCol : gray;
+$AccCol: black;
+@mixin exp($margin, $width) {
+    margin: $margin;
+    width: $width;
+}
+#cards{
+    width: 100%;
+    background-color: $priCol;
+    float: left;
+}
 header{
     color: blue;
     border-radius: 8px;
     background-color: rgba(255, 0, 0, 0.774);
     height: 50px;
     text-align: center;
+}
+#Acord{
+    color: $AccCol;
+}
+#AcordUn{
+    color: $priCol;
 }
 h2{
     margin-top: 10px;
@@ -19,11 +36,15 @@ h2{
     width: 30px;
 }
 #expY{
-    margin: 0px;
-    width: 30px;
+    @include exp(0px, 30px);
 }
 #cvc{
     margin-left: 30%;
+}
+#orderbtn{
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 75px;
 }
 .textbox{
     margin-top: 10px;
@@ -31,12 +52,17 @@ h2{
     margin-left: 30%;
 }
 a{
-    color: black;
+    color: $AccCol;
+}
+#map{
+    width: 80%;
+    height: 400px;
+    margin: 20px;
 }
 #info{
     border-radius: 8px;
     margin-top: 4%;
-    background-color: gray;
+    background-color: $priCol;
 }
 .section{
     color: $priCol;
@@ -44,8 +70,14 @@ a{
     float: left;
 }
 #logo{
-    width: 60px;
-    margin: auto;
+    @include exp(auto, 60px);
+}
+#coso{
+    margin-top: 40px;
+}
+#btnMod{
+    margin: 20px;
+    margin-left: 95px;
 }
 img{
     padding: 2px;
@@ -59,7 +91,7 @@ img{
 }
 aside{
     align-content: center;
-    background-color: gray;
+    background-color: $priCol;
     border-radius: 8px;
     width: 100%;
 }

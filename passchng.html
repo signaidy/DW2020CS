@@ -4,7 +4,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.scss"> 
+        <link rel="stylesheet" href="style.css"> 
      </head>
     <body>
         <header>
@@ -29,19 +29,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Menus</a>
+                    <a class="nav-link disabled" href="menu.html">Menus</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contact Info</a>
+                    <a class="nav-link disabled" href="contact.html">Contact Info</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Locations</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="login.html">Log In</a>
+                    <a class="nav-link disabled" href="contact.html#location">Locations</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="register1.html">Register</a>
@@ -58,10 +58,38 @@
         </nav>
         <aside>
             <h2>Recomended</h2>
-             <img src="" alt="Pulled Pork">
-             <img src="" alt="Pork Ribs"> 
-             <img src="" alt="Roasted Chicken">
-             <img src="" alt="Pulled Pork Burger">
+            <div class="card" id="cards">
+                <img src="https://via.placeholder.com/200" alt="Pork Ribs">
+                <div class="card-body">
+                    <h5 class="card-title">Pork Ribs</h5>
+                    <p class="card-text">12oz de Costillas de cerdo ahumadas por 6 horas con madera de manzana, acompañadas por una seleccion de dos guarniciones de: papas fritas, papa horneada, ensalada, fideos.</p>
+                    <a href="menu.html#pork" class="btn btn-primary">Ver el menu</a>
+                </div>
+            </div>
+            <div class="card" id="cards">
+                <img src="https://via.placeholder.com/200" alt="Pulled Pork">
+                <div class="card-body">
+                    <h5 class="card-title">Pork Chops</h5>
+                    <p class="card-text">Chuletas de cerdo, acompañadas por una seleccion de dos guarniciones de: papas fritas, papa horneada, ensalada, fideos.</p>
+                    <a href="menu.html.html#pork" class="btn btn-primary">Ver el menu</a>
+                </div>
+            </div>
+            <div class="card" id="cards">
+                <img src="https://via.placeholder.com/200" alt="Pulled Pork">
+                <div class="card-body">
+                    <h5 class="card-title">Pork Burger</h5>
+                    <p class="card-text">12oz de cerdo ahumado por 6 horas con madera de manzana, entre dos panes brioch, con salsa de piña, pepinillos, tocino, y cebolla caramelizada, acompañadas por una seleccion de dos guarniciones de: papas fritas, papa horneada, ensalada, fideos.</p>
+                    <a href="menu.html#pork" class="btn btn-primary">Ver el menu</a>
+                </div>
+            </div>
+            <div class="card" id="cards">
+                <img src="https://via.placeholder.com/200" alt="Pulled Pork">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Wings</h5>
+                    <p class="card-text">20 Alita de pollo en salsa barbacoa de la casa, acompañadas por una seleccion de dos guarniciones de: papas fritas, papa horneada, ensalada, fideos.</p>
+                    <a href="menu.html#chicken" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
         </aside>
         <div class="container" id="info">
             <div class="row">
